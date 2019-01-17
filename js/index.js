@@ -129,8 +129,8 @@ var APICall = function(theCity) {
 	var weatherUrl = "//api.openweathermap.org/data/2.5/forecast/daily?q=" + theCity;
 	// get API key
 	var apiKey = "b0b34e0501286ae903bab8dde901b6ae";
-	// get "unit" as imperial
-	var unitType = "imperial";
+	// get "unit" as metric
+	var unitType = "metric";
 	// get "cnt" as number of days up to 5 days
 	var daysTotal = 6;
 
